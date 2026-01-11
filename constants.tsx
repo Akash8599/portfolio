@@ -90,7 +90,7 @@ export const PROJECTS: ProjectItem[] = [
     title: "Wholesale Order Management",
     description: "Full-stack inventory and order management system handling the complete lifecycle from product catalog to invoicing.",
     tech: ["Java", "Spring Boot", "React.js", "PostgreSQL", "REST APIs"],
-    link: "https://shopix-9cpd2fsg0-akash-kambles-projects-508abc2f.vercel.app/login",
+    link: "https://shopixx.vercel.app/",
     image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=1000",
     longDescription: [
       "Designed and delivered a full-stack web application for a wholesale client to manage products, customers, sales orders, purchase orders, and invoicing.",
