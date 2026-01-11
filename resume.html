@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Akash Kamble</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              display: ['Space Grotesk', 'sans-serif'],
+            },
+            colors: {
+              slate: {
+                950: '#020617',
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+        @media print {
+            body { background-color: white !important; color: black !important; }
+            .no-print { display: none !important; }
+            .print-border { border-bottom: 1px solid #ccc !important; }
+            a { text-decoration: none !important; color: black !important; }
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-200 p-8 md:p-16 min-h-screen">
+
+    <div class="max-w-4xl mx-auto bg-slate-900/50 p-8 md:p-12 rounded-2xl border border-slate-800 shadow-2xl relative">
+        
+        <!-- Header -->
+        <header class="flex flex-col md:flex-row justify-between items-start md:items-center mb-12 border-b border-slate-800 pb-8 print-border">
+            <div>
+                <h1 class="text-4xl md:text-5xl font-display font-bold text-white mb-2">Akash Kamble</h1>
+                <p class="text-xl text-cyan-400 font-medium">Senior Software Engineer</p>
+                <p class="text-slate-400 mt-2 max-w-xl">Building High-Performance Cloud-Native Microservices with 4+ years of expertise in scalable distributed systems.</p>
+            </div>
+            <div class="mt-6 md:mt-0 flex flex-col items-start md:items-end text-sm text-slate-400 space-y-1">
+                <a href="mailto:akashkamble0701@gmail.com" class="hover:text-cyan-400 transition-colors">akashkamble0701@gmail.com</a>
+                <a href="tel:+919370057535" class="hover:text-cyan-400 transition-colors">+91 93700 57535</a>
+                <span class="flex items-center gap-1">Pune, India</span>
+                <div class="flex gap-3 mt-2">
+                    <a href="https://www.linkedin.com/in/akashkamble99/" class="text-slate-300 hover:text-white underline">LinkedIn</a>
+                    <a href="https://github.com/Akash8599/" class="text-slate-300 hover:text-white underline">GitHub</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Experience -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-display font-bold text-white mb-6 border-b border-slate-800 pb-2 print-border">Professional Experience</h2>
+            
+            <div class="space-y-8">
+                <div>
+                    <div class="flex flex-col sm:flex-row justify-between mb-2">
+                        <h3 class="text-xl font-bold text-white">Senior Software Engineer</h3>
+                        <span class="text-cyan-400 font-mono text-sm">March 2025 – Present</span>
+                    </div>
+                    <div class="flex justify-between mb-4">
+                        <h4 class="text-lg text-slate-300">Impetus Technologies</h4>
+                        <span class="text-slate-500 text-sm">Pune</span>
+                    </div>
+                    <ul class="list-disc list-outside ml-4 text-slate-400 space-y-2 leading-relaxed">
+                        <li>Designed and developed a cloud-native microservices ecosystem using Java, Quarkus, and Choreography-based SAGA pattern on Azure.</li>
+                        <li>Achieved 30–40% reduction in execution time per run by optimizing system scalability.</li>
+                        <li>Engineered secure RESTful APIs to replace legacy file systems, boosting response times by 15-20%.</li>
+                        <li>Reduced batch service execution time by 75% implementing parallel processing with Spring Batch.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <div class="flex flex-col sm:flex-row justify-between mb-2">
+                        <h3 class="text-xl font-bold text-white">Java Backend Developer</h3>
+                        <span class="text-cyan-400 font-mono text-sm">Oct 2021 – March 2025</span>
+                    </div>
+                    <div class="flex justify-between mb-4">
+                        <h4 class="text-lg text-slate-300">Tata Consultancy Services</h4>
+                        <span class="text-slate-500 text-sm">Pune</span>
+                    </div>
+                    <ul class="list-disc list-outside ml-4 text-slate-400 space-y-2 leading-relaxed">
+                        <li>Transformed legacy software for a major US pharmacy chain into a scalable real-time application using Microservices.</li>
+                        <li>Implemented Strangler Fig pattern for zero-downtime migration from monolith to microservices.</li>
+                        <li>Optimized Azure Redis instances to cut infrastructure costs by 40% and improved response times by 45%.</li>
+                        <li>Achieved 85%+ test coverage with JUnit/Mockito and led comprehensive code reviews.</li>
+                        <li>Leveraged Reactive Programming for asynchronous processing, enhancing high-load concurrency.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-display font-bold text-white mb-6 border-b border-slate-800 pb-2 print-border">Technical Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                    <h3 class="font-bold text-cyan-400 mb-2">Backend Core</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Java, Spring Boot, Quarkus, Hibernate, Microservices, RESTful APIs, Reactive Programming</p>
+                </div>
+                <div>
+                    <h3 class="font-bold text-cyan-400 mb-2">Cloud & DevOps</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Azure Kubernetes, Docker, Azure App Insights, ADF, EventHub, Service Bus, Maven, Git</p>
+                </div>
+                <div>
+                    <h3 class="font-bold text-cyan-400 mb-2">Data Engineering</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Cosmos DB, MySQL, SQL Server, Redis, OpenMetadata, Kafka, Data Migration</p>
+                </div>
+                <div>
+                    <h3 class="font-bold text-cyan-400 mb-2">Tools & Methodologies</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Jira, Confluence, Postman, Agile, Scrum, CI/CD, Root Cause Analysis</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-display font-bold text-white mb-6 border-b border-slate-800 pb-2 print-border">Key Projects</h2>
+            <div class="space-y-6">
+                <div>
+                    <div class="flex justify-between items-baseline mb-1">
+                        <h3 class="font-bold text-white">Wholesale Order Management System</h3>
+                        <a href="#" class="text-xs text-cyan-500 hover:underline">Full Stack</a>
+                    </div>
+                    <p class="text-slate-400 text-sm">Full-stack system using Java, Spring Boot, and React.js for managing product lifecycles, inventory, and invoicing with secure REST APIs.</p>
+                </div>
+                <div>
+                    <div class="flex justify-between items-baseline mb-1">
+                        <h3 class="font-bold text-white">Microservices Ecosystem</h3>
+                        <a href="#" class="text-xs text-cyan-500 hover:underline">Architecture</a>
+                    </div>
+                    <p class="text-slate-400 text-sm">Resilient architecture with Eureka Server discovery, API Gateway, distributed tracing, and fault tolerance patterns.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements -->
+        <section>
+            <h2 class="text-2xl font-display font-bold text-white mb-6 border-b border-slate-800 pb-2 print-border">Awards & Certifications</h2>
+            <ul class="grid grid-cols-2 gap-4 text-slate-400 text-sm">
+                <li class="flex items-center gap-2"><span class="text-yellow-500">★</span> Star of the Month (Impetus/TCS)</li>
+                <li class="flex items-center gap-2"><span class="text-yellow-500">★</span> On Spot Awards (2022-2024)</li>
+                <li class="flex items-center gap-2"><span class="text-green-500">✓</span> Java Certification (2023)</li>
+                <li class="flex items-center gap-2"><span class="text-green-500">✓</span> Spring Boot with Java (2024)</li>
+            </ul>
+        </section>
+
+        <!-- Print Button (Hidden when printing) -->
+        <button onclick="window.print()" class="no-print absolute top-8 right-8 bg-cyan-600 hover:bg-cyan-500 text-white p-3 rounded-full shadow-lg transition-all" title="Print to PDF">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+        </button>
+
+    </div>
+
+</body>
+</html>
